@@ -30,7 +30,7 @@ function App() {
 
         <div className="imgWrapeper">
           <ImageComponent src="https://picsum.photos/id/110/300/300" alt="Landscape" />
-          <ImageComponent src="https://picsum.photos/id/38/300/300" alt="Landscape" />
+          <ImageComponent src="https://picsum.photos/id/38/300/300" alt="Clouds" />
         </div>
       </header>
     </div>
