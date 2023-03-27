@@ -28,7 +28,10 @@ function App() {
           />
         </div>
 
-        <div className="imgWrapeper" style={{ display: "flex", justifyContent: "space-around" }}>
+        <div
+          className="imgWrapeper"
+          style={{ display: "flex", justifyContent: "space-around", width: "100vw", flexWrap: "wrap" }}
+        >
           <ImageComponent src="https://picsum.photos/id/110/300/300" alt="Landscape" picNum="1" />
           <ImageComponent src="https://picsum.photos/id/38/300/300" alt="Clouds" picNum="2" />
         </div>
