@@ -1,14 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Applicazione React</h1>
         <p>Creazione di una applicazione React usando "create-react-app"</p>
-        <div className="btnWrapper" style={{ display: "flex", gap: "5px" }}>
+
+        <div className="btnWrapper" style={{ display: "flex", gap: "5px", paddingBottom: "20px" }}>
           <ButtonComponent
             text="Hello"
             bgColor="#f4a261"
@@ -25,6 +26,11 @@ function App() {
             border="7px solid #f4a261"
             color="#e9c46a"
           />
+        </div>
+
+        <div className="imgWrapeper">
+          <ImageComponent src="https://picsum.photos/id/110/300/300" alt="Landscape" />
+          <ImageComponent src="https://picsum.photos/id/38/300/300" alt="Landscape" />
         </div>
       </header>
     </div>
